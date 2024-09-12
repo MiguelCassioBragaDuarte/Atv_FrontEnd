@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+</head>
+<body bgcolor="black">
+    <table bgcolor="d22e2e" align="center" width="100%" id="home" >
+        <tr>
+            <td>
+                <h2 align="center">
+                    <font color="black">Análise games</font>
+                </h2>
+            </td>
+        </tr>
+        <tr>
+        <table bgcolor="a82424" align="center" width="100%" border="0">
+            <tr>
+                <td align="center" width="33.33%">
+                    <font color="white"><a href="index.html" target="" title="página exemplo">Home</a></font>
+                </td >
+                <td align="center" width="33.33%">
+                    <font color="white"><a href="sobre.html" target="" title="página exemplo">Sobre</a></font>
+                </td>
+                <td align="center" width="33.33%">
+                    <font color="white"><a href="contato.html" target="" title="página exemplo">Contato</a></font>
+                </td>
+            </tr>
+        </tr>
+    </table>
+    </table>
+    <br>
+    <br>
+    <h2 align="center"><font color="red" id="contato">Contate nós</font></h2>
+    <table width="500" align="center" bgcolor="white">
+    <tr>
+    <td>
+    <fieldset>
+        <legend>Informações necessarias</legend>
+        <form action="" method="post">
+
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" maxlength="80" size="100%" placeholder="Digite seu nome: " required>
+
+            <br/><br/>
+
+            <label for="email">Email : </label>
+            <input type="email" name="mail" id="mail" maxlength="60" size="100%" placeholder="Digite seu E-mail: "required>
+            
+            <br/><br/>
+
+            <label for="telefone">Telefone : </label>
+            <input type="tel" name="fone" id="fone" maxlength="15" size="100%" placeholder="Digite seu telefone: "required>
+
+            <br/><br/>
+
+            <label for="nascimento">Data Nascimento : </label>
+            <input type="date" name="data_nasc" id="data_nasc" placeholder="Digite sua Data de nascimento: " min="1900-01-01" max="2006-06-01" required>
+
+            <br/><br/>
+
+            <label for="tipo">Tipo : </label>
+            <br/>
+            <input type="radio" name="suporte" id="suporte" value="suporte" required>
+            <label for="">Suporte</label>
+            <br/>
+            <input type="radio" name="duvida" id="duvida" value="duvida" required>
+            <label for="">Dúvida</label>
+            <br/>
+            <input type="radio" name="patrocinio" id="patrocinio" value="patrocinio" required>
+            <label for="">Patrocínio</label>
+            
+
+            <br/><br/>
+            <label for="">Descrição</label>
+            <br/>
+            <textarea name="desc" id="desc" cols="40" rows="10" maxlength="200" placeholder="Digite o motivo do contato"></textarea>
+            <br/><br/>
+
+            <label for="">Arquivo</label>
+            <br/>
+            <input type="file" name="arquivo" id="arquivo" >
+
+            <br/><br/>
+
+
+
+            <input type="submit" name="enviar" id="enviar" value="Enviar" >
+            <input type="reset" name="limpar" id="limpar" value="Limpar">
+        </form>
+    </fieldset>
+    </td>
+    </tr>
+    </table>
+        
+</body>
+</html>
